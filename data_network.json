@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {"id": "Juliana","group":1,"edad":17},
+    {"id": "Felipe","group":1,"edad":25},
+    {"id": "Duvan","group":2,"edad":27},
+    {"id": "Mishell","group":2,"edad":15},
+    {"id": "Jason","group":3,"edad":22},
+    {"id": "Amiga Jason","group":3,"edad":22},
+    {"id": "Wilson","group":4,"edad":22},
+    {"id": "Raul","group":5,"edad":23},
+    {"id": "Vivian","group":5,"edad":24},
+    {"id": "Esri","group":6,"edad":30},
+    {"id": "Rappi","group":6,"edad":6},
+    {"id": "Andes","group":6,"edad":50},
+    {"id": "Nacho","group":6,"edad":100},
+    {"id": "Andres jefe Jason","group":5,"edad":26}
+  ],
+  "links": [
+    {"source": "Juliana", "target": "Felipe", "value": 1},
+    {"source": "Juliana", "target": "Esri", "value": 10},
+    {"source": "Felipe", "target": "Andes", "value": 10},
+    {"source": "Duvan", "target": "Mishell", "value": 1},
+    {"source": "Duvan", "target": "Esri", "value": 10},
+    {"source": "Mishell", "target": "Nacho", "value": 10},
+    {"source": "Raul", "target": "Esri", "value": 10},
+    {"source": "Raul", "target": "Rappi", "value": 10},
+    {"source": "Vivian", "target": "Esri", "value": 10},
+    {"source": "Jason", "target": "Amiga Jason", "value": 1},
+    {"source": "Jason", "target": "Esri", "value": 10},
+    {"source": "Wilson", "target": "Esri", "value": 10},
+    {"source": "Jason", "target": "Andres jefe Jason", "value": 10}
+  ]
+}
